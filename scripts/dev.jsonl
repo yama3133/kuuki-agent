@@ -1,0 +1,33 @@
+{"meta": {"title": "Sprint 42 planning", "agenda": "1) carry-over tickets 2) release date for v3.2 3) on-call rota", "reference": "Release v3.2 is scheduled for Friday Nov 14. Team velocity last sprint was 31 points. Capacity this sprint is 28 points because Sam is on leave Wednesday to Friday. PAY-210 (payments migration) is blocked on the vendor until Nov 3. SRCH-88 (search revamp) is estimated at 13 points. On-call: Priya this week, Dev next week."}}
+{"speaker": "Maya", "text": "Morning everyone. Sprint 42 planning, three things: carry-over, the release date, and on-call.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Let's start with carry-over. We have four tickets from last sprint.", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "PAY-210 is the big one. I think the vendor unblocked us yesterday, so it's basically ready.", "expected": "fact_check"}
+{"speaker": "Priya", "text": "Oh nice, I hadn't heard that.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Okay. What about the two UI bugs?", "expected": "stay_silent"}
+{"speaker": "Priya", "text": "Both are in review, should merge today.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Good. And the flaky test ticket?", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "That one I'd drop. It hasn't failed in two weeks.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Fine by me. So, new work. Sam, how much room do we have?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Last sprint we did 31 points, and I'm out Wednesday to Friday, so less than that.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Let's say around 28 then.", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "I want to pull in the search revamp.", "expected": "stay_silent"}
+{"speaker": "Priya", "text": "How big is that one?", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "Hmm, I don't remember. Eight? Maybe thirteen?", "expected": "answer_question"}
+{"speaker": "Maya", "text": "Let's assume it fits.", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Totally unrelated, but did you all see the new one Priya bought?", "expected": "stay_silent"}
+{"speaker": "Priya", "text": "Ha, yes, it's a split ergonomic one. Took me a week to type normally.", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "I tried one of those. My wrists loved it but my pinky didn't.", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Which switches did you go with?", "expected": "stay_silent"}
+{"speaker": "Priya", "text": "Brown ones. Quiet enough for calls, mostly.", "expected": "nudge_back"}
+{"speaker": "Maya", "text": "Okay okay. Back to it.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Release date. When are we shipping 3.2?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "End of the month I think, the 28th?", "expected": "fact_check"}
+{"speaker": "Dev", "text": "That sounds right.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Okay, so carry-over is sorted, search revamp is in, and let's move to on-call.", "expected": "recap"}
+{"speaker": "Maya", "text": "Who's on call this week?", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "Kuuki, who's on the rota this week?", "expected": "answer_question", "addressed": true}
+{"speaker": "Priya", "text": "And next week is Dev, right?", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "Yep, I'm next.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Anything else before we wrap?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Just a heads-up, design review moved to Thursday.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "Thanks. Okay, that's it, see you all at standup.", "expected": "recap"}

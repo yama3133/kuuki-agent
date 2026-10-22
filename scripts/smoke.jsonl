@@ -1,0 +1,13 @@
+{"meta": {"title": "Sprint 42 planning (smoke test)", "agenda": "1) carry-over tickets 2) release date 3) on-call rota", "reference": "Release is scheduled for Nov 14. Team velocity last sprint was 31 points. The payments migration ticket (PAY-210) is blocked on the vendor."}}
+{"speaker": "Maya", "text": "Okay, let's start with carry-over. We have four tickets from last sprint.", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "PAY-210 is still open, I think it's almost done actually.", "expected": "fact_check"}
+{"speaker": "Maya", "text": "Great, so we can close it this week?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Our velocity was like 45 points last sprint, so we have room.", "expected": "fact_check"}
+{"speaker": "Dev", "text": "Yeah, we should pull in the search revamp too.", "expected": "stay_silent"}
+{"speaker": "Maya", "text": "By the way did anyone watch the game last night?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Oh man, that last quarter was wild.", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "I couldn't believe the referee call at the end.", "expected": "nudge_back"}
+{"speaker": "Maya", "text": "Ha. Anyway, what's the release date again?", "expected": "stay_silent"}
+{"speaker": "Sam", "text": "Not sure, end of November maybe?", "expected": "stay_silent"}
+{"speaker": "Dev", "text": "Kuuki, do you know?", "expected": "answer_question", "addressed": true}
+{"speaker": "Maya", "text": "Let's move on to on-call.", "expected": "stay_silent"}

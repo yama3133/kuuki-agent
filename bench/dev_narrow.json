@@ -1,0 +1,322 @@
+[
+ {
+  "i": 1,
+  "expected": "stay_silent",
+  "contradicts": 0.1364,
+  "unanswered": 0.492,
+  "drifted": 0.288,
+  "closing": 0.1683,
+  "addressed": 0.1094,
+  "ms": 1357.735458001116
+ },
+ {
+  "i": 2,
+  "expected": "stay_silent",
+  "contradicts": 0.1353,
+  "unanswered": 0.4003,
+  "drifted": 0.2146,
+  "closing": 0.1162,
+  "addressed": 0.095,
+  "ms": 1435.5409999989206
+ },
+ {
+  "i": 3,
+  "expected": "fact_check",
+  "contradicts": 0.5882,
+  "unanswered": 0.4271,
+  "drifted": 0.3897,
+  "closing": 0.2795,
+  "addressed": 0.1099,
+  "ms": 1454.1914590008673
+ },
+ {
+  "i": 4,
+  "expected": "stay_silent",
+  "contradicts": 0.1667,
+  "unanswered": 0.4402,
+  "drifted": 0.3999,
+  "closing": 0.3746,
+  "addressed": 0.0929,
+  "ms": 1456.7918329994427
+ },
+ {
+  "i": 5,
+  "expected": "stay_silent",
+  "contradicts": 0.13,
+  "unanswered": 0.383,
+  "drifted": 0.2848,
+  "closing": 0.1829,
+  "addressed": 0.0759,
+  "ms": 1457.3020839998208
+ },
+ {
+  "i": 6,
+  "expected": "stay_silent",
+  "contradicts": 0.1357,
+  "unanswered": 0.4217,
+  "drifted": 0.3312,
+  "closing": 0.234,
+  "addressed": 0.0693,
+  "ms": 1553.8895829995454
+ },
+ {
+  "i": 7,
+  "expected": "stay_silent",
+  "contradicts": 0.1049,
+  "unanswered": 0.3754,
+  "drifted": 0.33,
+  "closing": 0.1854,
+  "addressed": 0.0876,
+  "ms": 1562.7949580011773
+ },
+ {
+  "i": 8,
+  "expected": "stay_silent",
+  "contradicts": 0.1372,
+  "unanswered": 0.4199,
+  "drifted": 0.372,
+  "closing": 0.2175,
+  "addressed": 0.0878,
+  "ms": 1562.9685829990194
+ },
+ {
+  "i": 9,
+  "expected": "stay_silent",
+  "contradicts": 0.1317,
+  "unanswered": 0.407,
+  "drifted": 0.4189,
+  "closing": 0.2717,
+  "addressed": 0.0968,
+  "ms": 1561.7997919980553
+ },
+ {
+  "i": 10,
+  "expected": "stay_silent",
+  "contradicts": 0.2262,
+  "unanswered": 0.4214,
+  "drifted": 0.471,
+  "closing": 0.1802,
+  "addressed": 0.0747,
+  "ms": 1561.9722499977797
+ },
+ {
+  "i": 11,
+  "expected": "stay_silent",
+  "contradicts": 0.1664,
+  "unanswered": 0.4172,
+  "drifted": 0.4444,
+  "closing": 0.22,
+  "addressed": 0.0711,
+  "ms": 1559.2332080013875
+ },
+ {
+  "i": 12,
+  "expected": "stay_silent",
+  "contradicts": 0.1426,
+  "unanswered": 0.4295,
+  "drifted": 0.3866,
+  "closing": 0.1789,
+  "addressed": 0.1143,
+  "ms": 1555.5080829981307
+ },
+ {
+  "i": 13,
+  "expected": "stay_silent",
+  "contradicts": 0.1074,
+  "unanswered": 0.4313,
+  "drifted": 0.4168,
+  "closing": 0.1563,
+  "addressed": 0.1132,
+  "ms": 1553.9840839992394
+ },
+ {
+  "i": 14,
+  "expected": "answer_question",
+  "contradicts": 0.2152,
+  "unanswered": 0.528,
+  "drifted": 0.4364,
+  "closing": 0.1861,
+  "addressed": 0.1053,
+  "ms": 1557.3653330029629
+ },
+ {
+  "i": 15,
+  "expected": "stay_silent",
+  "contradicts": 0.1385,
+  "unanswered": 0.4598,
+  "drifted": 0.409,
+  "closing": 0.3066,
+  "addressed": 0.0943,
+  "ms": 1562.95825000052
+ },
+ {
+  "i": 16,
+  "expected": "stay_silent",
+  "contradicts": 0.093,
+  "unanswered": 0.3704,
+  "drifted": 0.5844,
+  "closing": 0.5519,
+  "addressed": 0.0907,
+  "ms": 1558.0650420015445
+ },
+ {
+  "i": 17,
+  "expected": "stay_silent",
+  "contradicts": 0.1017,
+  "unanswered": 0.4424,
+  "drifted": 0.609,
+  "closing": 0.4622,
+  "addressed": 0.0819,
+  "ms": 1554.3799999977637
+ },
+ {
+  "i": 18,
+  "expected": "stay_silent",
+  "contradicts": 0.1132,
+  "unanswered": 0.4101,
+  "drifted": 0.6531,
+  "closing": 0.4013,
+  "addressed": 0.079,
+  "ms": 1554.8550419989624
+ },
+ {
+  "i": 19,
+  "expected": "stay_silent",
+  "contradicts": 0.1027,
+  "unanswered": 0.3604,
+  "drifted": 0.6582,
+  "closing": 0.4245,
+  "addressed": 0.0864,
+  "ms": 1555.3087910011527
+ },
+ {
+  "i": 20,
+  "expected": "nudge_back",
+  "contradicts": 0.1068,
+  "unanswered": 0.364,
+  "drifted": 0.666,
+  "closing": 0.4748,
+  "addressed": 0.072,
+  "ms": 1557.7018750009302
+ },
+ {
+  "i": 21,
+  "expected": "stay_silent",
+  "contradicts": 0.091,
+  "unanswered": 0.3842,
+  "drifted": 0.6547,
+  "closing": 0.5892,
+  "addressed": 0.0784,
+  "ms": 1557.7552080030728
+ },
+ {
+  "i": 22,
+  "expected": "stay_silent",
+  "contradicts": 0.1625,
+  "unanswered": 0.5449,
+  "drifted": 0.5554,
+  "closing": 0.1134,
+  "addressed": 0.0928,
+  "ms": 1554.6580419977545
+ },
+ {
+  "i": 23,
+  "expected": "fact_check",
+  "contradicts": 0.4448,
+  "unanswered": 0.4336,
+  "drifted": 0.5456,
+  "closing": 0.28,
+  "addressed": 0.0789,
+  "ms": 1553.7525830004597
+ },
+ {
+  "i": 24,
+  "expected": "stay_silent",
+  "contradicts": 0.2457,
+  "unanswered": 0.4596,
+  "drifted": 0.5305,
+  "closing": 0.2873,
+  "addressed": 0.095,
+  "ms": 1554.6317920016008
+ },
+ {
+  "i": 25,
+  "expected": "recap",
+  "contradicts": 0.2386,
+  "unanswered": 0.4486,
+  "drifted": 0.437,
+  "closing": 0.5252,
+  "addressed": 0.0721,
+  "ms": 1551.810791999742
+ },
+ {
+  "i": 26,
+  "expected": "stay_silent",
+  "contradicts": 0.129,
+  "unanswered": 0.5423,
+  "drifted": 0.4137,
+  "closing": 0.1977,
+  "addressed": 0.0738,
+  "ms": 1560.443917001976
+ },
+ {
+  "i": 27,
+  "expected": "answer_question",
+  "contradicts": 0.1263,
+  "unanswered": 0.4836,
+  "drifted": 0.4259,
+  "closing": 0.1382,
+  "addressed": 0.3776,
+  "ms": 1545.5235419976816
+ },
+ {
+  "i": 28,
+  "expected": "stay_silent",
+  "contradicts": 0.1465,
+  "unanswered": 0.4923,
+  "drifted": 0.3829,
+  "closing": 0.1643,
+  "addressed": 0.2017,
+  "ms": 1552.6713749968621
+ },
+ {
+  "i": 29,
+  "expected": "stay_silent",
+  "contradicts": 0.1265,
+  "unanswered": 0.4737,
+  "drifted": 0.4053,
+  "closing": 0.3093,
+  "addressed": 0.2546,
+  "ms": 1545.4005409992533
+ },
+ {
+  "i": 30,
+  "expected": "stay_silent",
+  "contradicts": 0.0906,
+  "unanswered": 0.4324,
+  "drifted": 0.399,
+  "closing": 0.592,
+  "addressed": 0.0673,
+  "ms": 1460.31558300092
+ },
+ {
+  "i": 31,
+  "expected": "stay_silent",
+  "contradicts": 0.142,
+  "unanswered": 0.3924,
+  "drifted": 0.4179,
+  "closing": 0.3881,
+  "addressed": 0.0822,
+  "ms": 1455.7381669983442
+ },
+ {
+  "i": 32,
+  "expected": "recap",
+  "contradicts": 0.0948,
+  "unanswered": 0.4399,
+  "drifted": 0.4142,
+  "closing": 0.684,
+  "addressed": 0.0645,
+  "ms": 1549.0556660006405
+ }
+]

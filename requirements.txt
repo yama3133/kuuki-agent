@@ -1,0 +1,6 @@
+# strands-decider itself is installed from a clone (the mlx extra is not on PyPI yet); see README.
+strands-agents==1.62.0
+botocore[crt]==1.43.117
+boto3==1.43.117
+fastapi==0.159.1
+uvicorn==0.54.0

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuuki - an AI meeting agent that knows when to stay quiet</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Kuuki</h1>
+      <p>An AI meeting agent that knows when to stay quiet</p>
+    </div>
+    <div class="controls">
+      <label>Script
+        <select id="script"></select>
+      </label>
+      <button id="start" class="primary">Start</button>
+      <button id="pause" disabled>Pause</button>
+      <label class="toggle"><input type="checkbox" id="voice" checked> Voice</label>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel chat-panel">
+      <h2 id="meeting-title">Meeting</h2>
+      <div id="chat" class="chat">
+        <p class="hint">Pick a script and press Start.</p>
+      </div>
+    </section>
+
+    <section class="panel decision-panel">
+      <h2>Should Kuuki speak? <span class="sub">Strands Decider 2B, on this laptop</span></h2>
+      <div id="verdict" class="verdict idle">Waiting</div>
+      <p id="latest-line" class="latest-line"></p>
+      <div id="bars" class="bars"></div>
+      <p id="reason" class="reason"></p>
+      <p class="ms"><span id="ms">-</span> ms to decide</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="stat">
+      <div class="num" id="lines">0</div>
+      <div class="label">lines judged locally</div>
+    </div>
+    <div class="stat">
+      <div class="num" id="spoke">0</div>
+      <div class="label">times Kuuki spoke</div>
+    </div>
+    <div class="stat accent">
+      <div class="num" id="llm">0</div>
+      <div class="label">LLM calls (Amazon Bedrock)</div>
+    </div>
+    <div class="stat muted">
+      <div class="num" id="llm-every">0</div>
+      <div class="label">LLM calls if an LLM judged every line</div>
+    </div>
+    <div class="stat">
+      <div class="num" id="median">-</div>
+      <div class="label">median decision time (ms)</div>
+    </div>
+    <div id="status" class="status">idle</div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{"meta": {"title": "INC-77 postmortem", "agenda": "1) timeline 2) root cause 3) action items", "reference": "INC-77: checkout API errors on Oct 14 from 09:12 to 09:58 UTC (46 minutes). About 3,100 checkouts failed. The paging alert fired at 09:20 UTC and was acknowledged at 09:31 UTC. Root cause: the TLS certificate on the internal payments gateway expired; no team owned its renewal. The database failover was a separate event on Oct 7. Security policy SEC-12: certificate expiry alerts must fire 30 days before expiry."}}
+{"speaker": "Rosa", "text": "Thanks for joining. This is the postmortem for INC-77, the checkout outage on October 14.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Goal today is a timeline, root cause, and action items. No blame.", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "So errors started at 9:12 UTC and we recovered at 9:58.", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "About forty-five minutes of impact, give or take.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "How many customers were affected?", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Around three thousand failed checkouts.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "And when did the alert fire?", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "Pretty much immediately, 9:12.", "expected": "fact_check"}
+{"speaker": "Lena", "text": "Hm, I remember the page coming later than that.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Okay, let's note that. When was it acknowledged?", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "I acked it at 9:31, I was in another meeting.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Root cause. Lena, you dug into this?", "expected": "stay_silent"}
+{"speaker": "Lena", "text": "Yes. The internal payments gateway's TLS cert expired. Nobody owned the renewal.", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Wait, wasn't it the database failover?", "expected": "stay_silent"}
+{"speaker": "Lena", "text": "No, the failover was the week before. This was the cert.", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "Funny, my home router's cert expired last month too.", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Oh, mine nags me constantly about firmware updates.", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "I finally replaced mine with a mesh setup, coverage is way better.", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Which brand? I've been thinking about getting one.", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "I'll send you a link, the setup app is great.", "expected": "nudge_back"}
+{"speaker": "Rosa", "text": "Let's keep going. Why didn't we catch the expiry earlier?", "expected": "stay_silent"}
+{"speaker": "Lena", "text": "We have no expiry monitoring for internal certs at all.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Do we know how many other internal certs expire this quarter?", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "No idea.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Okay, action items.", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Before that, what was the exact duration? I need it for the report.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Hmm, someone can check later.", "expected": "answer_question"}
+{"speaker": "Lena", "text": "I can take automating the renewal.", "expected": "stay_silent"}
+{"speaker": "Omar", "text": "And I'll add an expiry alert, maybe a week before?", "expected": "fact_check"}
+{"speaker": "Kenji", "text": "Sounds good.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Kuuki, when exactly did the alert fire? I want it in the doc.", "expected": "answer_question", "addressed": true}
+{"speaker": "Rosa", "text": "Great. Anything else?", "expected": "stay_silent"}
+{"speaker": "Kenji", "text": "Should we also tell the customers whose checkout failed?", "expected": "stay_silent"}
+{"speaker": "Lena", "text": "Maybe. Let's take it offline.", "expected": "stay_silent"}
+{"speaker": "Rosa", "text": "Okay, I think we're done. Thanks all.", "expected": "recap"}
